@@ -20,7 +20,7 @@ fluidPage(
       
       selectizeInput(
         inputId = "Area", label = "County, city, or census designated place (CDP)",
-        choices = Names[, ],
+        choices = geo_names[, ],
         options = list(
           placeholder = "Type in a county, city, or place to see graphs",
           multiple = TRUE,

@@ -2,7 +2,7 @@
 
 library(shiny)
 
-Names <- read.table(file = "https://raw.githubusercontent.com/edyhsgr/DP2010DemoDataReview_CA/master/PlaceAndCountyNames_DP2010DemonstrationProducts_CA.csv",
+geo_names <- read.table(file = "https://raw.githubusercontent.com/edyhsgr/DP2010DemoDataReview_CA/master/PlaceAndCountyNames_DP2010DemonstrationProducts_CA.csv",
                     header = FALSE, sep = ",")
 
 
